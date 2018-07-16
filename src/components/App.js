@@ -1,9 +1,11 @@
-import React,{ PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import Profile from './Profile';
 import About from './About';
 import Education from './Education';
 import Skills from './Skills';
 import Work from './Work';
+import '../styles/main.scss';
 
 const App = props => {
     const profileData = props.jsonObj.basics;
@@ -33,5 +35,9 @@ const App = props => {
         </div>
     )
 };
+
+App.propTypes = {
+    jsonObj: PropTypes.object.isRequired,
+  };
 
 export default App;

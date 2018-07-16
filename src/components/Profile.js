@@ -5,7 +5,7 @@ const Profile = props => {
     return (
         <div>
             <div className="profileImg">
-                <img role="presentation" className="img-circle center-block" 
+                <img alt="" className="img-circle center-block" 
                     src={profileObj.picture} width="200" />
             </div>
             <h1 className="text-center">{profileObj.name}</h1>
@@ -24,10 +24,14 @@ const Profile = props => {
             <div className="divider"></div>
             <ul className="profileLinks list-inline text-center">
                 <li>
-                    <a className="fa fa-facebook fa-2x" href={profileObj.profiles[0].url}></a>
+                    <a href={profileObj.profiles[0].url}>
+                        <i className="fa fa-facebook fa-2x"></i>
+                    </a>
                 </li>
                 <li>
-                    <a className="fa fa-github fa-2x" href={profileObj.profiles[1].url}></a>
+                    <a href={profileObj.profiles[1].url}>
+                        <i className="fa fa-github fa-2x"></i>
+                    </a>
                 </li>
             </ul>
             <div className="divider"></div>

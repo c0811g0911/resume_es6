@@ -1,0 +1,22 @@
+{
+  "name": "resume_es6",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap-loader": "^3.0.0",
+    "bootstrap-sass": "^3.3.7",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "resolve-url-loader": "^2.3.0",
+    "sass-loader": "^7.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

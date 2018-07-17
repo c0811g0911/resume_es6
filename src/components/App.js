@@ -5,11 +5,10 @@ import About from './About';
 import Education from './Education';
 import Skills from './Skills';
 import Work from './Work';
-import '../styles/main.scss';
 
 const App = props => {
     const profileData = props.jsonObj.basics;
-    const aboutData = props.jsonObj.sumary;
+    const aboutData = props.jsonObj.basics.summary;
     const workData = props.jsonObj.work;
     const skillData = props.jsonObj.skills;
     const educationData = props.jsonObj.education;

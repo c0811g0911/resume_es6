@@ -1,12 +1,16 @@
 import React from 'react';
+import moment from 'moment';
 
 const Edutcation = props => {
     const getEdutcation = props.educationData.map(function(item,index){
+        const startDate = moment(item.startDate).format('MMM, YYYY');
+        const endDate = moment(item.endDate).format('MMM, YYYY');
+
         return (
             <div key={index}>
                 <h3>{item.studyType} {item.area}</h3>
                 <h4>{item.institution}</h4>
-                <p>Studied : {item.startDate} to {item.endDate}</p>
+                <p>Studied : {startDate} - {endDate}</p>
             </div>
         )
     });

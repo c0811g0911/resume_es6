@@ -3,10 +3,10 @@ import moment from 'moment';
 
 const WorkItem = props => {
     const getWorkDates = () => {
-        const startDate = moment(props.workItemData.startDate).format('MMM','YYYY');
+        const startDate = moment(props.workItemData.startDate).format('MMM, YYYY');
         let endDate = null;
         if(props.workItemData.endDate !== ''){
-            endDate = moment(props.workItemData.endDate).format('MMM','YYYY');
+            endDate = moment(props.workItemData.endDate).format('MMM, YYYY');
         } else {
             endDate = 'Present';
         }
@@ -28,7 +28,7 @@ const WorkItem = props => {
                 {props.workItemData.position}, <span>{props.workItemData.company}</span>
             </h3>
             <p className="workDates">{getWorkDates()}</p>
-            <p>{props.workItemData.sumary}</p>
+            <p>{props.workItemData.summary}</p>
             <ul>
                 {getHightLights}
             </ul>

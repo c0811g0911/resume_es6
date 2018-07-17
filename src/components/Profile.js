@@ -35,7 +35,7 @@ const Profile = props => {
                 </li>
             </ul>
             <div className="divider"></div>
-            <p>I built this site with <a href="https://reactjs.org/">React </a> components and a <a href="https://jsonresume.org/schema/">JSON Resume Schema</a>.</p>
+            <p>I built this site with <a href="https://reactjs.org/">React </a> components.</p>
         </div>
     )
 };

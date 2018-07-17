@@ -31,11 +31,11 @@
     "work": [
       {
         "company": "ETC",
-        "position": "Junior Java Developer",
-        "website": "http://etc.vn",
-        "startDate": "2012-11-01",
-        "endDate": "2015-04-30",
-        "summary": "I am currently working as a java developer on LOS(Loan Origination System) project for Vietinbank.We are striving to increase the quality of our projects with good test coverage and code reviews and improving our continuous integration practices.",
+        "position": "Software Developer",
+        "website": "",
+        "startDate": "2016-06-01",
+        "endDate": "2018-04-01",
+        "summary": "",
         "highlights": []
       },
       {
@@ -48,12 +48,12 @@
         "highlights": []
       },
       {
-        "company": "Federal Publishing Company",
-        "position": "Web Developer",
-        "website": "",
-        "startDate": "2004-07-01",
-        "endDate": "2005-03-31",
-        "summary": "Lead web developer on homehound.com.au, html/css/javascript development with php & SQL server integration.",
+        "company": "ETC",
+        "position": "Junior Java Developer",
+        "website": "http://etc.vn",
+        "startDate": "2012-11-01",
+        "endDate": "2015-04-30",
+        "summary": "I am currently working as a java developer on LOS(Loan Origination System) project for Vietinbank.We are striving to increase the quality of our projects with good test coverage and code reviews and improving our continuous integration practices.",
         "highlights": []
       }
     ],
